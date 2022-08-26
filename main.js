@@ -68,8 +68,8 @@ let isUserCreated = false;
 
 $userName.focus();
 
-socket = io("http://localhost:3000");
-userSocket = io("http://localhost:3000/user", {
+socket = io("https://k1-client2.herokuapp.com");
+userSocket = io("https://k1-client2.herokuapp.com/user", {
   auth: { token: "test" },
 });
 
