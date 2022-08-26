@@ -67,11 +67,19 @@ const emojis = [
 let isUserCreated = false;
 
 $userName.focus();
+/*
+socket = io("http://localhost:4000/");
+userSocket = io("http://localhost:4000//user", {
+  auth: { token: "test" },
+});
+*/
+
 
 socket = io("https://k1-server.herokuapp.com/");
 userSocket = io("https://k1-server.herokuapp.com/user", {
   auth: { token: "test" },
 });
+
 
 socket.on("disconnect", () => {
   socket.emit("removeUser", socket.id);
