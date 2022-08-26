@@ -21,5 +21,17 @@
     "socket.io": "^4.5.1",
     "socket.io-client": "^4.5.1",
     "sqlite3": "^5.0.8"
-  }
+  },
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvablot/webpub-client2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvablot/webpub-client2/issues"
+  },
+  "homepage": "https://github.com/alvablot/webpub-client2#readme"
 }
